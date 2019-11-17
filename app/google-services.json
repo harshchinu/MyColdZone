@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "579780063662",
+    "firebase_url": "https://mycoldzone-f5b95.firebaseio.com",
+    "project_id": "mycoldzone-f5b95",
+    "storage_bucket": "mycoldzone-f5b95.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579780063662:android:33e62e8e1642b3c85d983f",
+        "android_client_info": {
+          "package_name": "com.example.mycoldzone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579780063662-o8pqv5ea72g20vs9or8m5btcmtk9f899.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mycoldzone",
+            "certificate_hash": "54decb49272fa48ee4a4bc4e5475220479d2327b"
+          }
+        },
+        {
+          "client_id": "579780063662-a0vks8g8a255i4k28n9b2eq42re9aup1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNa-3ssd34JXj402TnvT1T1BXfy6EaYqU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "579780063662-a0vks8g8a255i4k28n9b2eq42re9aup1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
