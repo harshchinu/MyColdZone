@@ -34,9 +34,6 @@
 
     </RelativeLayout>
 
-
-
-
     <LinearLayout
         android:id="@+id/view_foreground"
         android:background="@android:color/white"

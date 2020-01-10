@@ -54,6 +54,7 @@ public class FoodDetails extends AppCompatActivity {
         numberButton = (ElegantNumberButton)findViewById(R.id.number_button);
         btnCart = (FloatingActionButton)findViewById(R.id.btnCart);
 
+
         btnCart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

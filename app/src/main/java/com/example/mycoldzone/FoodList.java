@@ -13,6 +13,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
+import com.andremion.counterfab.CounterFab;
 import com.example.mycoldzone.Interface.itemClickListener;
 import com.example.mycoldzone.ViewHolder.FoodViewHolder;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
@@ -36,6 +37,8 @@ public class FoodList extends AppCompatActivity {
     FirebaseRecyclerAdapter<Food,FoodViewHolder> adapter;
     String categoryId="";
 
+    CounterFab fab;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -47,10 +50,15 @@ public class FoodList extends AppCompatActivity {
         recyclerView = (RecyclerView)findViewById(R.id.recycle_food);
         recyclerView.setHasFixedSize(true);
         layoutManager = new LinearLayoutManager(this);
+
+
         //recyclerView.setLayoutManager(layoutManager);
 
 
         //getting intent value here
+
+
+
 
         if(getIntent() != null){
             categoryId=getIntent().getStringExtra("CategoryId");
@@ -96,6 +104,8 @@ public class FoodList extends AppCompatActivity {
                         startActivity(foodDetail);
                     }
                 });
+
+
             }
 
             @NonNull
@@ -114,6 +124,8 @@ public class FoodList extends AppCompatActivity {
 
         adapter.startListening();
         recyclerView.setAdapter(adapter);
+
+
     }
 
 

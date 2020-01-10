@@ -17,6 +17,15 @@ public class Order {
 
     }
 
+    @Override
+    public String toString() {
+        return "Product id: " + this.getProductId() +
+                "Product Name " + this.getProductName()+
+                "Quantity " + this.getQuantity() +
+                "Price" + this.getPrice();
+
+    }
+
     public int getID() {
         return ID;
     }
@@ -64,6 +73,7 @@ public class Order {
     public void setPrice(String price) {
         Price = price;
     }
+
 
 
 }

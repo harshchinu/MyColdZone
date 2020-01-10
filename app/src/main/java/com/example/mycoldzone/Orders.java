@@ -41,7 +41,7 @@ public class Orders extends AppCompatActivity {
 
         //Firebase
         database = FirebaseDatabase.getInstance();
-        requests = database.getReference("Requests");
+        requests = database.getReference("Orders");
 
         recyclerView = (RecyclerView)findViewById(R.id.listOrders);
         recyclerView.setHasFixedSize(true);
